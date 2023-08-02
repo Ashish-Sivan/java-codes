@@ -1,0 +1,135 @@
+public class javastudy {
+
+	public static void main(String[] args)
+	{
+		System.out.println("\n Hello World ");
+	}
+
+}
+
+
+
+
+------------------------------------------------------------------------
+
+public class javastudy {
+
+	public static void main(String[] args)
+	{
+		int a=10;
+		float b=5.5f;
+		double c=10.5;
+		char d='c';
+		String e="hello everyone";
+		byte f=5;
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		System.out.println(d);
+		System.out.println(e);
+		System.out.println(f);
+}}
+
+
+---------------------------------------------------------------------------
+
+public class javastudy {
+
+	public static void main(String[] args)
+	{
+		int a=10;
+		float b=5.5f;
+		double c=10.5;
+		char d='c';
+		String e="hello everyone";
+		byte f=5;
+		boolean g=true; //true or false
+		System.out.println("value of a is:"+a);
+		System.out.println("value of b is:"+b);
+		System.out.println("value of c is:"+c);
+		System.out.println("value of d is:"+d);
+		System.out.println("value of e is:"+e);
+		System.out.println("value of f is:"+f);
+		System.out.println("value of g is:"+g);
+}}
+
+-----------------------------------------------------------------------------
+
+public class javastudy {
+
+	public static void main(String[] args)
+	{
+		int a=10, b=20;
+		int c=a+b;
+		int d=a-b;
+		int e=a*b;
+		int f=a/b;
+		int g=a%b;
+		
+		System.out.println(c+" "+d+" "+e+" "+f+" "+g);
+}}
+
+
+-----------------------------------------------------------------------------
+
+public class javastudy {
+
+	public static void main(String[] args)
+	{
+		int a=10,b=20;
+		System.out.println(a<b);
+		System.out.println(a>b);
+		System.out.println(a<=b);
+		System.out.println(a>=b);
+		System.out.println(a==b);
+}}
+
+------------------------------------------------------------------------------
+
+public class javastudy {
+
+	public static void main(String[] args)
+	{
+		int a=10, b=20, c=30;
+		System.out.println((a>b) && (a<c));
+		System.out.println((a>b) || (a<c));
+		System.out.println(!(a>b) && (a<c));
+
+
+}}
+
+--------------------------------------------------------------------------------
+
+public class javastudy {
+
+	public static void main(String[] args)
+	{
+		int a=10,b,c;
+		b=++a;
+		System.out.println("pre increment answer");
+		System.out.println("value if a is"+a);
+		System.out.println("value of b is"+b);
+		c=a++;
+		System.out.println("pre increment answer");
+		System.out.println("value if a is"+a);
+		System.out.println("value of c is"+c);
+		
+}}
+
+---------------------------------------------------------------------------------
+
+public class javastudy {
+
+	public static void main(String[] args)
+	{
+		int a=2,b=4;
+		System.out.println(a & b);
+		System.out.println(a | b);
+		System.out.println(a ^ b);
+		System.out.println(a<<1); //delete from left and add zero to right
+		System.out.println(a>>1); //delete from right and add zero to left
+}}
+
+
+---------------------------------------------------------------------------------
+
