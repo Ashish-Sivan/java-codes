@@ -1,0 +1,259 @@
+import java.util.Scanner;
+public class javastudy {
+
+		public static void main(String[] args)
+		{
+		Scanner obj=new Scanner(System.in);
+		int a;
+		System.out.print("enter a number:");
+		a=obj.nextInt();
+		if (a<10)
+		{
+			System.out.println("Negative number");
+		}
+		if (a>10)
+		{	
+			System.out.println("positive number");
+		}
+			
+	}
+}
+
+-------------------------------------------------------------------------
+
+import java.util.Scanner;
+public class javastudy {
+
+		public static void main(String[] args)
+		{
+		Scanner obj=new Scanner(System.in);
+		int a;
+		System.out.print("enter a number:");
+		a=obj.nextInt();
+		if (a<10)
+		{
+			System.out.println("Negative number");
+		}
+		else
+		{	
+			System.out.println("positive number");
+		}
+			
+	}
+}
+
+
+--------------------------------------------------------------------------
+
+import java.util.Scanner;
+public class javastudy {
+
+		public static void main(String[] args)
+		{
+		Scanner obj=new Scanner(System.in);
+		int a,b=18;
+		System.out.print("enter age of person:");
+		a=obj.nextInt();
+		if(a>b)
+		{
+			System.out.println("you can vote");
+		}
+		else{
+			System.out.println("You are still underage you can't vote");
+		}
+			
+	}
+}
+
+-----------------------------------------------------------------------------
+
+import java.util.Scanner;
+public class javastudy {
+
+		public static void main(String[] args)
+		{
+		Scanner obj=new Scanner(System.in);
+		int a,b;
+		System.out.print("enter 1st number:");
+		a=obj.nextInt();
+		System.out.print("enter 2nd number:");
+		b=obj.nextInt();
+		if(a>b)
+		{
+			System.out.println("1st is greater");
+		}
+		else{
+			System.out.println("2nd is greater");
+		}
+			
+	}
+}
+
+---------------------------------------------------------------------------------
+
+import java.util.Scanner;
+public class javastudy {
+
+		public static void main(String[] args)
+		{
+		Scanner obj=new Scanner(System.in);
+		int a,b,c;
+		System.out.print("enter 1st number:");
+		a=obj.nextInt();
+		System.out.print("enter 2nd number:");
+		b=obj.nextInt();
+		System.out.print("enter 3rd number:");
+		c=obj.nextInt();
+		if((a>b)&&(a>c))
+		{
+			System.out.println("1st is greater");
+		}
+		else
+		{
+			if((b>a)&&(b>c))
+			{
+			System.out.println("2nd is greater");
+			}
+			else
+			{
+		System.out.println("3rd is greater");
+			}
+		
+		}
+		}
+			
+	}
+
+-------------------------------------------------------------------------------
+
+
+import java.util.Scanner;
+public class javastudy {
+
+		public static void main(String[] args)
+		{
+		Scanner obj=new Scanner(System.in);
+		int a;
+		System.out.print("enter a number:");
+		a=obj.nextInt();
+		if((a>0)&&(a%2==0))
+		{
+			System.out.println("The number is a positive even number");
+		}
+		else
+		{
+			if((0>a)&&(a%2==0))
+			{
+			System.out.println("The number is a negative even number");
+			}
+			else
+			{
+				if((a>0)&&(a%2!=0))
+				{
+					System.out.println("The number is positive odd number");
+				}
+				else
+				{
+					System.out.println("The number is a negative odd number");
+				}
+			}
+		
+		}
+		}
+			
+	}
+
+
+--------------------------------------------------------------------------------
+
+
+import java.util.Scanner;
+public class javastudy {
+
+		public static void main(String[] args)
+		{
+		Scanner obj=new Scanner(System.in);
+		int a;
+		String n;
+		double d1,d2,d3,p;
+		System.out.print("enter Roll number:");
+		a=obj.nextInt();
+		System.out.print("enter Student Name:");
+		n=obj.next();
+		System.out.print("enter mark of 1st subject:");
+		d1=obj.nextDouble();
+		System.out.print("enter mark of 2nd subject:");
+		d2=obj.nextDouble();
+		System.out.print("enter mark of 3rd subject:");
+		d3=obj.nextDouble();
+		p=((d1+d2+d3)/300)*100;
+		System.out.println("percent:"+p);
+		if(p>90)
+		System.out.println("you get 'O' Grade");
+		else
+		if((p>80)&&(p<90))
+		System.out.println("You get 'A' Grade");
+			else
+				if ((p>70)&&(p<80))
+				
+			System.out.println("you get 'B' grade");
+				else
+					if ((p>60)&&(p<70))
+				
+			System.out.println("you get 'C' grade");
+					else
+						System.out.println("you fail");
+		
+		}
+			
+	}
+
+--------------------------------------------------------------------------------
+
+
+import java.util.Scanner;
+public class javastudy {
+
+		public static void main(String[] args)
+		{
+		Scanner obj=new Scanner(System.in);
+		char c;
+		System.out.print("enter a vowel:");
+		c=obj.next().charAt(0);
+		if(c=='a'||c=='e'||c=='i'||c=='o'||c=='u')
+		{
+		System.out.print("this is a vowel");}
+			else
+			{
+				System.out.println("It is a consonanat");
+			}
+				
+		
+		
+		
+		
+		}
+			
+	}
+
+--------------------------------------------------------------------------------
+
+import java.util.Scanner;
+public class javastudy {
+
+		public static void main(String[] args)
+		{
+		Scanner obj=new Scanner(System.in);
+		int y;
+		System.out.print("Enter year:");
+		y=obj.nextInt();
+		if (((y%4==0)&&(y%100!=0)) || (y%400==0))
+		{
+			System.out.println("This is a leap Year");
+		}
+			else{
+			System.out.println("This is not a Leap year");}
+}}
+
+
+--------------------------------------------------------------------------------
