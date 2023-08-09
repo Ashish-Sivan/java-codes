@@ -132,4 +132,83 @@ public class javastudy {
 
 
 ---------------------------------------------------------------------------------
+import java.util.Scanner;
+public class javastudy {
+
+		public static void main(String[] args)
+		{
+			Scanner obj=new Scanner(System.in);
+			int a;
+			System.out.print("enter a number:");
+			a=obj.nextInt();
+	}
+}
+
+
+
+------------------------------------------------------------------------------------
+
+
+
+
+import java.util.Scanner;
+public class javastudy {
+
+		public static void main(String[] args)
+		{
+			Scanner obj=new Scanner(System.in);
+			int a,b,c,d;
+			System.out.print("enter a number:");
+			a=obj.nextInt();
+			System.out.print("enter the next number:");
+			b=obj.nextInt();
+			c=a+b;
+			System.out.println("A+B is "+c);
+			d=a-b;
+			System.out.println("A-B is "+d);
+
+			
+	}
+}
+
+
+----------------------------------------------------------------------------
+
+
+import java.util.Scanner;
+public class javastudy {
+
+		public static void main(String[] args)
+		{
+			Scanner obj=new Scanner(System.in);
+			int a;
+			float b;
+			double c;
+			String d;
+			
+			System.out.print("enter a  integer:");
+			a=obj.nextInt();
+			System.out.print("enter the float number:");
+			b=obj.nextFloat();
+			System.out.print("enter the double number:");
+			c=obj.nextDouble();
+			System.out.print("enter a string:");
+			d=obj.next();	
+	}
+}
+
+-----------------------------------------------------------------------------
+
+import java.util.Scanner;
+public class javastudy {
+
+		public static void main(String[] args)
+		{
+			Scanner obj=new Scanner(System.in);
+			char a ;
+			System.out.print("enter a char to find its 4th digit:");
+			a=obj.next().charAt(3);
+			System.out.println("4th char is:"+a);
+	}
+}
 
