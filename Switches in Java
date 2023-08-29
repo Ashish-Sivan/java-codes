@@ -1,1 +1,139 @@
+import java.util.Scanner;
+public class javastudy {
 
+		public static void main(String[] args)
+		{
+		Scanner obj=new Scanner(System.in);
+		int a;
+		System.out.print("Enter input either 1 or 2:");
+		a=obj.nextInt();
+		switch(a)
+		{
+			case 1:
+			System.out.print("Value passes as 1");
+			break;
+			case 2:
+			System.out.print("value passes as 2");
+			break;
+			
+			default:
+			System.out.print("Wrong input");
+		}
+		
+		
+}}
+
+
+--------------------------------------------------------------------------------
+
+
+import java.util.Scanner;
+public class javastudy {
+
+		public static void main(String[] args)
+		{
+		Scanner obj=new Scanner(System.in);
+		char a;
+		System.out.print("Enter a  character:");
+		a=obj.next().charAt(0);
+		switch(a)
+		{
+			case 'a':
+			case 'e':
+			case 'i':
+			case 'o':
+			case 'u':
+			System.out.println("this is a vowel");
+			break;
+			default:
+			System.out.println("this is a Consonanat");
+		}
+			
+		
+}}
+
+--------------------------------------------------------------------------------
+
+import java.util.Scanner;
+public class javastudy {
+
+		public static void main(String[] args)
+		{
+		Scanner obj=new Scanner(System.in);
+		String a;
+		System.out.print("Enter a weekday:");
+		a=obj.nextLine();
+		switch(a)
+		{
+			case "Monday":
+			System.out.println("It is the First day of the week");
+			break;
+			case "Tuesday":
+			System.out.println("It is the Second day of the week");
+			break;
+			case "Wednesday":
+			System.out.println("It is the Third day of the week");
+			break;
+			case "Thursaday":
+			System.out.println("It is the Fourth day of the week");
+			break;
+			case "Friday":
+			System.out.println("It is the Fifth day of the week");
+			break;
+			case "Saturday":
+			System.out.println("It is the Sixth day of the week");
+			break;
+			case "Sunday":
+			System.out.println("It is the Seventh day of the week");
+			break;
+			default:
+			System.out.println("It is not a weekday");
+			
+		}
+		
+		
+		
+}}
+
+
+--------------------------------------------------------------------------------
+
+
+import java.util.Scanner;
+public class javastudy {
+
+		public static void main(String[] args)
+		{
+		Scanner obj=new Scanner(System.in);
+		int a,b;
+		char d;
+		System.out.print("Enter 1st number:");
+		a=obj.nextInt();
+		System.out.print("Enter 2nd number:");
+		b=obj.nextInt();
+		System.out.println("enter '+' to add the number:");
+		System.out.println("enter '-' to substract the number:");
+		System.out.println("enter '*' to multiply the numbers:");
+		System.out.println("enter '/' to divide the number:");
+		System.out.print("Now enter the value:");
+		d=obj.next().charAt(0);
+		switch(d)
+		{
+			case '+':
+			int e=a+b;
+			System.out.println("sum is:"+e);
+			break;
+			case '-':
+			int f=a-b;
+			System.out.println("Difference is:"+f);
+			break;
+			case '*':
+			int g=a*b;
+			System.out.println("multiple is:"+g);
+			break;
+			case '/':
+			int h=a/b;
+			System.out.println("divison is:"+h);
+			break;
+		}
+}}
