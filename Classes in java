@@ -1,0 +1,122 @@
+import java.util.Scanner;
+
+class A {
+    int empid;      // instance variable
+    String empname;
+
+    void getdata() {
+        Scanner obj = new Scanner(System.in);
+        System.out.print("Enter employee ID: ");
+        empid = obj.nextInt();
+        System.out.print("Enter employee Name: ");
+        empname = obj.next();
+    }
+
+    void print() {
+        System.out.println("Employee ID is " + empid);
+        System.out.println("Employee name is " + empname);
+    }
+}
+
+public class javastudy {
+    public static void main(String[] args) {
+        A obj = new A();
+        obj.getdata();
+        obj.print();
+    }
+}
+
+
+--------------------------------------------------------------------------------
+
+
+import java.util.Scanner;
+
+class rectangle {
+    int l,b,a  ;   
+
+    void getdata() {
+        Scanner obj = new Scanner(System.in);
+        System.out.print("Enter length of rectangle: ");
+        l= obj.nextInt();
+        System.out.print("Enter breadth of rectangle: ");
+        b = obj.nextInt();
+		a=l*b;
+		
+    }
+
+    void print() {
+        System.out.println("Area of rectangle is " + a);
+    }
+}
+
+public class javastudy {
+    public static void main(String[] args) {
+        rectangle obj = new rectangle();
+        obj.getdata();
+        obj.print();
+    }
+}
+
+
+--------------------------------------------------------------------------------
+
+
+import java.util.Scanner;
+
+class Rectangle {
+    int ano, amount, balance = 0;  
+    String name;
+    char a;
+
+    void getdata() {
+        Scanner obj = new Scanner(System.in);
+        System.out.print("Enter Account number: ");
+        ano = obj.nextInt();
+        System.out.print("Enter name of user: ");
+        name = obj.next();
+        System.out.print("Enter 'd' to deposit, Enter 'w' to withdraw: ");
+        a = obj.next().charAt(0);
+        System.out.print("Enter the amount: ");
+        amount = obj.nextInt();
+    }
+
+    void deposit() {
+        balance = balance + amount;
+    }
+
+    void withdraw() {
+        balance = balance - amount;
+    }
+
+    void print() {
+        System.out.println("The name is " + name);
+        System.out.println("The account number is " + ano);
+    }
+}
+
+public class javastudy {
+    public static void main(String[] args) {
+        Rectangle obj = new Rectangle();
+        obj.getdata();
+
+        if (obj.a == 'w' || obj.a == 'W') {
+            obj.withdraw();
+            obj.print();
+            System.out.println("The balance is " + obj.balance);
+        } else if (obj.a == 'd' || obj.a == 'D') {
+            obj.deposit();
+            obj.print();
+            System.out.println("The balance is " + obj.balance);
+        } else {
+            System.out.println("Sorry, wrong input");
+        }
+    }
+}
+
+
+--------------------------------------------------------------------------------
+
+
+
+
