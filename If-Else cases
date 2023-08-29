@@ -257,3 +257,120 @@ public class javastudy {
 
 
 --------------------------------------------------------------------------------
+import java.util.Scanner;
+public class javastudy {
+
+    public static void main(String[] args) {
+        
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner obj=new Scanner(System.in);
+        long a;
+        int d,f;
+        String b;
+        char c;
+        int e=20000;
+        a=obj.nextInt();
+        b=obj.next();
+        c=obj.next().charAt(0);
+        d=obj.nextInt();
+        if (c=='M'||c=='m')
+        {
+           System.out.println("Hi Mr. "+b+"!"); 
+        }
+        else if(c=='F'||c=='f')
+        {
+            System.out.println("Hi Ms. "+b+"!");
+        }
+        if(e < d) 
+        {
+            System.out.println("Insufficient Funds! You can not withdraw " + d+".");
+        }
+        else
+        {
+            f = e - d;
+            System.out.println("Your Account Balance after withdrawal is " + f);
+        }
+        
+        
+        
+        
+    }
+}
+
+
+------------------------------------------------------------------------------
+
+
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner obj=new Scanner(System.in);
+        int n;
+        boolean a=false;
+        n=obj.nextInt();
+        for (int i=1; i*i*i<=n; i++) 
+        {
+                if (n == i * i * i)
+                {
+                a = true;
+                break;
+            }
+            if (a)
+            {
+                System.out.print("Perfect Cube");
+            }
+            else
+            {
+                System.out.print("Not Perfect Cube");
+                break;
+                
+            }
+        }
+        
+            
+    }
+}
+-------------------------------------------------------------------------------------
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.Scanner;
+
+public class javastudy {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner obj=new Scanner(System.in);
+        int n,x,s;
+        n=obj.nextInt();
+        x=obj.nextInt();
+        s=n+x;
+        if(n<0||n>100)
+        {
+            System.out.println("invalid input");
+        }
+        else
+        {
+            if(x<0||x>100)
+            {
+                System.out.println("invalid input");
+            }
+            else
+            {
+                System.out.println(s);
+            }
+        }
+        
+    }
+}
+--------------------------------------------------------------------------------
+
+
